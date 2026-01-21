@@ -92,8 +92,9 @@ En este ejercicio se implementa la carga y análisis de información histórica 
 - **sql/query_rachas.sql:** consulta SQL que resuelve los criterios solicitados en el enunciado.
 
 ### Dependencias
-Para ejecutar el script de ingestión es necesario contar con:
+- Python 3.x
 - `pandas`
+- `openpyxl` (requerido para la lectura de archivos Excel `.xlsx`)
 
 Las librerías `os`, `sqlite3` y `logging` hacen parte de la librería estándar de Python y no requieren instalación adicional.
 
@@ -139,5 +140,6 @@ Este ejercicio utiliza únicamente librerías estándar de Python, por lo que no
 ### Ejecución
 
 Ubicándose en la carpeta `src`, ejecutar: python main.py
+
 
 
