@@ -11,8 +11,8 @@ Cada ejercicio fue abordado con un enfoque claro, priorizando la legibilidad, la
 
 ```text
 prueba-tecnica-tuya/
-├── 1_prueba_concepto.md
-├── 2_prueba_concepto_KPIs.md
+├── 1_dataset_concept.md
+├── 2_kpis_concept.md
 ├── 3_output_rachas_sqlite/
 │   ├── data/
 │   │   └── dataset.xlsx
@@ -48,7 +48,7 @@ prueba-tecnica-tuya/
 
 ## 1️ Ejercicio Conceptual – Creación de Dataset de Teléfonos
 
-**Archivo:** `1_prueba_concepto.md`
+**Archivo:** `1_dataset_concept.md`
 
 En este ejercicio se desarrolló una propuesta conceptual para la creación y mantenimiento de un dataset confiable de números de teléfono de clientes.
 
@@ -64,7 +64,7 @@ El resultado es un diseño conceptual que busca asegurar la consistencia y confi
 
 ## 2️ Ejercicio Conceptual – KPI’s y Calidad de Datos
 
-**Archivo:** `2_prueba_concepto_KPIs.md`
+**Archivo:** `2_kpis_concept.md`
 
 Con base en el dataset conceptual de teléfonos, se planteó un mecanismo de seguimiento orientado a la calidad y trazabilidad del dato.
 
@@ -138,6 +138,7 @@ Este ejercicio utiliza únicamente librerías estándar de Python, por lo que no
 ### Ejecución
 
 Ubicándose en la carpeta `src`, ejecutar: python main.py
+
 
 
 
