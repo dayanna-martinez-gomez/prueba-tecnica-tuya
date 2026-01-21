@@ -9,6 +9,9 @@ Cada ejercicio fue abordado con un enfoque claro, priorizando la legibilidad, la
 
 ## 📂 Estructura del repositorio
 
+## 📂 Estructura del repositorio
+
+```text
 prueba-tecnica-tuya/
 ├── 1_prueba_concepto.md
 ├── 2_prueba_concepto_KPIs.md
@@ -40,6 +43,8 @@ prueba-tecnica-tuya/
 │       ├── results.py
 │       └── main.py
 └── readme.md
+
+```
 
 ---
 
@@ -134,4 +139,5 @@ Este ejercicio utiliza únicamente librerías estándar de Python, por lo que no
 ### Ejecución
 
 Ubicándose en la carpeta `src`, ejecutar: python main.py
+
 
