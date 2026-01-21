@@ -8,7 +8,8 @@ Cada ejercicio fue abordado con un enfoque claro, priorizando la legibilidad, la
 ---
 
 ## 📂 Estructura del repositorio
-.
+
+prueba-tecnica-tuya/
 ├── 1_prueba_concepto.md
 ├── 2_prueba_concepto_KPIs.md
 ├── 3_output_rachas_sqlite/
@@ -39,7 +40,6 @@ Cada ejercicio fue abordado con un enfoque claro, priorizando la legibilidad, la
 │       ├── results.py
 │       └── main.py
 └── readme.md
-
 
 ---
 
@@ -134,3 +134,4 @@ Este ejercicio utiliza únicamente librerías estándar de Python, por lo que no
 ### Ejecución
 
 Ubicándose en la carpeta `src`, ejecutar: python main.py
+
