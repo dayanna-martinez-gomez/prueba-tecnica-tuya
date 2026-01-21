@@ -19,7 +19,7 @@ def main():
        - Guarda el HTML modificado en un directorio de salida, generando archivos autocontenidos y portables.
     3. Al finalizar, muestra un resumen estructurado de todas las imágenes procesadas exitosamente y de aquellas que fallaron, agrupadas por archivo HTML.
 
-    Este flujo integra los módulos collector, processor, replacer y results, asegurando un procesamiento robusto, trazable y fácil de mantener para la portabilidad de archivos HTML con imágenes embebidas.
+    Este flujo integra los módulos collector, processor, replacer y results.
     """
     output_dir = Path("output")
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -53,4 +53,5 @@ def main():
     print(results.as_dict())
 
 if __name__ == "__main__":
+
     main()
